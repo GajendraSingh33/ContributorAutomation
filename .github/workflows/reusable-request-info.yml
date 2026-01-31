@@ -97,8 +97,7 @@ jobs:
             \`\`\`
             discord: "123456789012345678"
             wallet: "0x1234567890abcdef1234567890abcdef12345678"
-            \`\`\`
-            
+            \`\`\``;
             
             await github.rest.issues.createComment({
               owner,
